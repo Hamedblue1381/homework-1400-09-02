@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flex</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    * {
+        margin: 1px;
+
+    }
+
+    #header {
+        border-radius: 50px;
+        text-align: center;
+        padding-top: 3%;
+        background-color: #46fb1b;
+        width: 100%;
+        height: 110px;
+        margin-bottom: 4px;
+
+    }
+
+    h1 {
+        text-align: center;
+        color: black;
+    }
+
+    #aside {
+        border-radius: 50px;
+        float: left;
+        width: 30%;
+        background-color: #708fdb;
+        height: 300px;
+
+
+    }
+
+    #flex-container {
+        border-radius: 50px;
+        float: right;
+        width: 69%;
+        background-color: #ff0e2c;
+        height: 300px;
+
+
+    }
+
+    #flex-container img {
+        float: inherit;
+        margin-top: 6%;
+        margin-right: 8%;
+        margin-left: 4%;
+        width: 20%;
+        height: 50%;
+        transition: width 1s, height 1s, transform 3s, border-radius 1s, box-shadow 2s;
+
+    }
+
+    img:hover {
+        border: 2px solid black;
+        cursor: pointer;
+        border-radius: 80px;
+        transform: perspective(17px);
+       
+
+
+    }
+
+    #footer {
+        border-radius: 50px;
+        margin-top: 310px;
+        width: 100%;
+        background-color: tomato;
+        height: 110px;
+        position: relative;
+
+
+    }
+</style>
+
+<body>
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="aside">
+        <h1>Aside</h1>
+        <h2>Hamed is here</h2>
+    </div>
+    <div id="flex-container">
+        <h1>Article</h1>
+        <img src="pic1.jpg">
+        <img src="pic2.jpg">
+        <img src="pic3.jpeg">
+
+
+
+    </div>
+
+    <div id="footer">
+        <h1>footer</h1>
+        <h2 style="text-align: center">Copyright to hamed</h2>
+    </div>
+</body>
+
+</html>
